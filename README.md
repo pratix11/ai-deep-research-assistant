@@ -127,6 +127,8 @@ docs/
 ```
 
 ---
+- [Setup Guide](docs/setup.md)
+
 
 ## Technology Stack
 
