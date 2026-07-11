@@ -103,6 +103,22 @@ Final Research Report
 
 ---
 
+## Screenshots
+
+### Application Interface
+
+![Application UI](docs/screenshots/ui.png)
+
+### Generated Research Report
+
+![Research Report](docs/screenshots/report.png)
+
+### OpenAI Trace
+
+![OpenAI Trace](docs/screenshots/trace.png)
+
+---
+
 ## Project Structure
 
 ```text
@@ -123,14 +139,28 @@ research_agents/
 
 docs/
 │
-└── architecture.md
+├── screenshots
+├── architecture.md
+├── setup.md
+
+examples/
+│
+└── sample_report_1.md
+
+README.md
+pyproject.toml
 ```
 
 ---
+## Documentation
+
+- [Architecture](docs/architecture.md)
 - [Setup Guide](docs/setup.md)
 
 
 ## Technology Stack
+
+The project leverages the OpenAI Agents SDK to orchestrate specialized AI agents that collaborate to automate end-to-end research workflows.
 
 * Python
 * OpenAI Agents SDK
@@ -154,7 +184,7 @@ docs/
 
 ## Status
 
-A project focused on multi-agent AI systems and automated research workflows.
+This project demonstrates the implementation of a multi-agent research assistant using the OpenAI Agents SDK, including automated research planning, web search, report generation, and email delivery.
 
 ## Author
 
